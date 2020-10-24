@@ -23,7 +23,7 @@ public class Login  {
 		WebElement username = driver.findElement(By.xpath(pr.getProperty("UserName")));
 		username.sendKeys(pr.getProperty("MailId"));
 		driver.findElement(By.xpath(pr.getProperty("Next"))).click();
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		WebElement password = driver.findElement(By.xpath(pr.getProperty("Password")));
 		password.sendKeys(pr.getProperty("MailPassword"));
 		driver.findElement(By.xpath(pr.getProperty("Next"))).click();

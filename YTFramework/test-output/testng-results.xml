@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="102188" started-at="2020-10-07T17:21:01Z" finished-at="2020-10-07T17:22:44Z">
+    <groups>
+    </groups>
+    <test name="Command line test 915aad3c-a508-4a74-9f6a-7a602dbba57f" duration-ms="102188" started-at="2020-10-07T17:21:01Z" finished-at="2020-10-07T17:22:44Z">
+      <class name="org.testing.TestScripts.TC3">
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:org.testing.TestScripts.TC3@2d554825]" name="BrowserLaunch" is-config="true" duration-ms="15715" started-at="2020-10-07T22:52:02Z" finished-at="2020-10-07T22:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="YTLoginSubscriptions()[pri:0, instance:org.testing.TestScripts.TC3@2d554825]" name="YTLoginSubscriptions" duration-ms="26192" started-at="2020-10-07T22:52:17Z" finished-at="2020-10-07T22:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YTLoginSubscriptions -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:org.testing.TestScripts.TC3@2d554825]" name="BrowserClose" is-config="true" duration-ms="128" started-at="2020-10-07T22:52:43Z" finished-at="2020-10-07T22:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC1">
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:org.testing.TestScripts.TC1@180bc464]" name="BrowserLaunch" is-config="true" duration-ms="17312" started-at="2020-10-07T22:51:01Z" finished-at="2020-10-07T22:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="YTLogin()[pri:0, instance:org.testing.TestScripts.TC1@180bc464]" name="YTLogin" duration-ms="42690" started-at="2020-10-07T22:51:19Z" finished-at="2020-10-07T22:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YTLogin -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:org.testing.TestScripts.TC1@180bc464]" name="BrowserClose" is-config="true" duration-ms="134" started-at="2020-10-07T22:52:01Z" finished-at="2020-10-07T22:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- org.testing.TestScripts.TC1 -->
+    </test> <!-- Command line test 915aad3c-a508-4a74-9f6a-7a602dbba57f -->
+  </suite> <!-- Suite1 -->
+</testng-results>
